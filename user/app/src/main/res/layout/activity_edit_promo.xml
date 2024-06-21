@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPromoActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/redPunch"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@color/redPunch"
+            android:src="@drawable/arrow_alt_circle_left"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Cập Nhật Mã Giảm Giá"
+            android:textColor="@color/trang"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/inputPromoCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Nhập mã giảm giá"
+        android:inputType="textCapWords"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/inputPromoDes"
+        android:layout_below="@id/inputPromoCode"
+        android:layout_margin="5dp"
+        android:hint="Nhập mô tả về mã giảm giá"
+        android:inputType="textCapSentences|textMultiLine"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/inputPromoPrice"
+        android:layout_below="@id/inputPromoDes"
+        android:layout_margin="5dp"
+        android:hint="Nhập số tiền giảm giá"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/inputPromoMinimumPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputPromoPrice"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Nhập điều kiện để giảm giá"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/inputExpireDate"
+        android:layout_below="@id/inputPromoMinimumPrice"
+        android:layout_margin="5dp"
+        android:hint="Ngày hết hạn"
+        android:inputType="numberDecimal"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/baseline_calendar_today_24"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputExpireDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/redPunch"
+        android:minWidth="150dp"
+        android:text="Cập Nhật" />
+</RelativeLayout>

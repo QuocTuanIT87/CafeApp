@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "571685237527",
+    "firebase_url": "https://dtb-urcf-default-rtdb.firebaseio.com",
+    "project_id": "dtb-urcf",
+    "storage_bucket": "dtb-urcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571685237527:android:db38b716947c38088f7d52",
+        "android_client_info": {
+          "package_name": "com.example.midterm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhk_aMuYd71Ic_sXBgq9fYjVOJaqRYSr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571685237527:android:ad6ded1f34f831e68f7d52",
+        "android_client_info": {
+          "package_name": "om.example.urcafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhk_aMuYd71Ic_sXBgq9fYjVOJaqRYSr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

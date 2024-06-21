@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AF282D"
+    tools:context=".SuaSanPham">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AF282D"
+        android:gravity="center"
+        android:paddingTop="64px"
+        android:paddingBottom="42px">
+
+        <Button
+            android:id="@+id/btnBackShow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#AF282D"
+            android:scaleX="1.6"
+            android:scaleY="1.6"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            app:icon="@android:drawable/ic_menu_revert"
+            app:iconPadding="2dp"
+            app:iconTint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="CẬP NHẬT       "
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="52px"
+        android:layout_weight="1"
+        android:background="@drawable/background_radius"
+        android:gravity="center"
+        android:paddingTop="32px"
+        android:paddingBottom="42px">
+
+        <TableLayout
+            android:layout_width="395dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="32px">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="32px"
+                android:background="@drawable/background_with_rounded_corners"
+                android:paddingLeft="12dp"
+                android:paddingRight="16dp"
+                app:backgroundTint="@null">
+
+
+                <TextView
+                    android:id="@+id/txtTenMon"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24px"
+                    android:layout_weight="1"
+                    android:text="Tên Món"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edtTenMon"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:ems="10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="32px"
+                android:background="@drawable/background_with_rounded_corners"
+                android:paddingLeft="12dp"
+                android:paddingRight="16dp"
+                app:backgroundTint="@null">
+
+
+                <TextView
+                    android:id="@+id/txtGiaTien"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24px"
+                    android:layout_weight="1"
+                    android:text="Giá Tiền"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edtGiaTien"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:inputType="number" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="32px"
+                android:background="@drawable/background_with_rounded_corners"
+                android:paddingLeft="12dp"
+                android:paddingRight="16dp"
+                app:backgroundTint="@null">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="16px">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="24px"
+                            android:layout_weight="1"
+                            android:paddingTop="12px"
+                            android:text="Upload Ảnh"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btnUpload"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginRight="38dp"
+                            android:background="@drawable/circle_button"
+                            android:gravity="center"
+                            android:textColor="#090707"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:backgroundTint="@null"
+                            app:icon="@android:drawable/ic_input_add"
+                            app:iconGravity="top"
+                            app:iconPadding="0dp"
+                            app:iconTint="#120D0D" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingBottom="32px">
+
+                        <ImageView
+                            android:id="@+id/imgSanPham"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:src="@drawable/bacxiu" />
+                    </TableRow>
+                </TableLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_with_rounded_corners"
+                android:paddingLeft="12dp"
+                android:paddingRight="16dp"
+                app:backgroundTint="@null">
+
+
+                <TableLayout
+                    android:layout_width="395dp"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="24px"
+                            android:layout_weight="2"
+                            android:text="Mô Tả"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/edtMoTa"
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="2"
+                            android:ems="10"
+                            android:inputType="textMultiLine"
+                            android:paddingLeft="12dp"
+                            android:paddingRight="30dp"
+                            android:singleLine="false" />
+                    </TableRow>
+                </TableLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp">
+
+                <Button
+                    android:id="@+id/btnNhapMon"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_upload"
+                    android:backgroundTint="#DB1B25"
+                    android:text="Update"
+                    android:textSize="18sp"
+                    app:backgroundTint="@null" />
+            </TableRow>
+        </TableLayout>
+
+    </TableRow>
+</TableLayout>

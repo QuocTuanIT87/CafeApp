@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vang"
+    tools:context=".IntroScreenActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:cardCornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Café Admin"
+        android:textColor="@color/naude"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <ImageView
+        android:id="@+id/coffeeBean1"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:src="@drawable/mcoffee_bean2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="348dp"
+        android:src="@drawable/coffee_bean2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:src="@drawable/coffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/mcoffee_bean2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="52dp"
+        android:src="@drawable/mcoffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="136dp"
+        android:src="@drawable/coffee_bean2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/coffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/coffee_bean2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="164dp"
+        android:src="@drawable/coffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean10"
+        android:layout_width="33dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="316dp"
+        android:src="@drawable/coffee_bean2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="360dp"
+        android:src="@drawable/coffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="348dp"
+        android:src="@drawable/mcoffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:src="@drawable/mcoffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean14"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/mcoffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean15"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="72dp"
+        android:src="@drawable/mcoffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean16"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="356dp"
+        android:src="@drawable/mcoffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean17"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="120dp"
+        android:src="@drawable/mcoffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean19"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="372dp"
+        android:src="@drawable/mcoffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean20"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="288dp"
+        android:src="@drawable/mcoffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean21"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="176dp"
+        android:src="@drawable/mcoffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/coffeeBean22"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="392dp"
+        android:src="@drawable/mcoffee_bean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

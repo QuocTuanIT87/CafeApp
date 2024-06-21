@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="redPunch">#AF282D</color>
+    <color name="blueLat">#E3E9EE</color>
+    <color name="trang">#F5F4F4</color>
+    <color name="vang">#F0E2B2</color>
+    <color name="vang2">#E6DDB0</color>
+    <color name="vien">#DCDCDC</color>
+
+    <color name="primary">#004d40</color>
+    <color name="dark">#00251a</color>
+    <color name="accent">#39796b</color>
+
+    <color name="btnSignUp">#39796b</color>
+    <color name="btnSignActive">#a9d440</color>
+
+    <color name="overlayBackground">#7f333639</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+
+    <color name="colorPrimary">#ef473a</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="colorAccent">#ff7b65</color>
+    <color name="button_color">@color/colorPrimary</color>
+    <color name="divider">#F7F5F4</color>
+    <color name="colorPrice">#616161</color>
+    <color name="bt_border_color">#99999A</color>
+    <color name="night1">#100d36</color>
+    <color name="night2">#1c1848</color>
+    <color name="night3">#282454</color>
+    <color name="night4">#312d5d</color>
+    <color name="night5">#3b3768</color>
+
+    <color name="vangcanh">#DBB88E</color>
+    <color name="naude">#470B01</color>
+    <color name="naudedam">#3D2217</color>
+
+
+
+    <color name="pink">#FC85E2</color>
+    <color name="green">#43945C</color>
+    <color name="red">#FC0303</color>
+    <color name="redBackground">#F75564</color>
+    <color name="lightGreen">#A5FC79</color>
+    <color name="blue">#49A1FF</color>
+    <color name="colorDatHang">#EFE3C8</color>
+    <color name="redEditText">#F75564</color>
+    <color name="blue_grey">#2E4058</color>
+    <color name="search_background">#F5F5f5</color>
+    <color name="addCart">#F75564</color>
+    <color name="grey">#D2D2D2</color>
+    <color name="lavender">#8692f7</color>
+</resources>

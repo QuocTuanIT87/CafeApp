@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="1dp"
+    app:cardElevation="3dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativePromotion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp">
+
+        <ImageView
+            android:id="@+id/iconTv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_coupon" />
+
+        <TextView
+            android:id="@+id/promoCodeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iconTv"
+            android:text="Mã giảm giá"
+            android:textColor="@color/redPunch"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/promoPriceLabelTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/promoCodeTv"
+            android:layout_toEndOf="@id/iconTv"
+            android:text="Số tiền giảm giá: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/promoPriceTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/promoCodeTv"
+            android:layout_toEndOf="@id/promoPriceLabelTv"
+            android:text="12000 đ"
+            android:textColor="@color/redPunch"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/minimumOrderPriceLabelTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/promoPriceTv"
+            android:layout_toEndOf="@id/iconTv"
+            android:text="Đặt ít nhất: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/minimumOrderPriceTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/promoPriceTv"
+            android:layout_toEndOf="@id/minimumOrderPriceLabelTv"
+            android:text="50000 đ"
+            android:textColor="@color/redPunch"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/expireDateLabelTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/minimumOrderPriceTv"
+            android:layout_toEndOf="@id/iconTv"
+            android:text="Ngày hết hạn: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/expireDateTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/minimumOrderPriceTv"
+            android:layout_toEndOf="@id/expireDateLabelTv"
+            android:text="30/04/1945"
+            android:textColor="@color/redPunch"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descriptionLabelTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/expireDateTv"
+            android:layout_toEndOf="@id/iconTv"
+            android:text="Mô tả: "
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descriptionTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/expireDateTv"
+            android:layout_toEndOf="@id/descriptionLabelTv"
+            android:maxLines="2"
+            android:text="Đây là mô tả của mã giảm giá này, tối đa 2 dòng"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_delete" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Banner hoặc Logo của cửa hàng -->
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Tên cửa hàng -->
+    <TextView
+        android:id="@+id/textViewStoreName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UrCafe"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/redPunch"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Địa chỉ và button -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/textViewAddress"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ: 17-1 Đ. Hoàng Diệu 2, Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh" />
+
+        <ImageView
+            android:id="@+id/locationBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_location" />
+    </LinearLayout>
+
+    <!-- Số điện thoại của cửa hàng -->
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điện thoại: 0123 456 789"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Website của cửa hàng -->
+    <TextView
+        android:id="@+id/textViewWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website: www.example.UrCafe.com"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Mô tả hoặc thông tin khác của cửa hàng -->
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mô tả: Quán cà phê này là nơi lý tưởng để thư giãn và thưởng thức những ly cà phê thơm ngon. Với không gian thoải mái và yên bình, bạn có thể tận hưởng không khí thân thiện và dịch vụ chuyên nghiệp. Menu đa dạng với các loại cà phê từ cappuccino đến espresso, cũng như các loại thức uống khác như trà và nước ép trái cây. Đồ ăn nhẹ nhàng như bánh mì, bánh ngọt cũng được cung cấp để kèm theo cùng ly cà phê của bạn."
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/feedBackBtn"
+        android:backgroundTint="@color/redPunch"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Gửi Phản Hồi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
